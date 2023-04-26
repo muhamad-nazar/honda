@@ -85,7 +85,7 @@ body {
     width: 100%;
 }
 
-.promo-img {
+.promos-img {
     width: 50%;
 }
 /*End Promo*/
@@ -388,11 +388,17 @@ body {
         margin-top: -300px;
         position: absolute;
         font-size: 1.2em;
-        margin-left: 250px;
+        margin-left: 0px;
+    }
+
+    .promos-img {
+        width: 330px;
     }
     /*Produk*/
 
     .nav-android {
+        max-width: 380px;
+        width: 380px;
         display: block;
     }
 
@@ -406,7 +412,8 @@ body {
     }
     
     .nav-border-bottom {
-        padding: 15px 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
         border: 1px solid #330707;
     }
 }
