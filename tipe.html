@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Bogor</title>
+
+    <!--Libraries CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/bs/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="asset/native/style.css">
+    <link rel="stylesheet" href="asset/bs/animate.css">
+
+    <style>
+        .filter-btn.active {
+            background-color: rgb(235, 8, 8);
+            color: #ffffff;
+        }
+    </style>
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="asset/img/honda.png" type="image/x-icon">
+    
+</head>
+<body>
+
+  <div id="isi-content">
+  <!--header-->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="asset/img/logo.png" class="logoNav" alt="">
+          </a>
+          <button class="navbar-toggler" style="color: #ffff;border: 1px solid #fff;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <i class="bi bi-list-task" style="font-size: 1.4em;"></i>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto ">
+
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link actives" href="tipe.html">Tipe Mobil</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Harga</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Artikel & Promo</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Galeri</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Video</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Kontak</a>
+                  </li>
+                 
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!--End Navbar-->
+
+    <!--Side Bar-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="background-color: rgb(235, 8, 8);">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title name-pesantren" id="offcanvasExampleLabel">
+                <img src="asset/img/logo.png" class="logoNav" alt="">
+            </h4>
+            <button type="button" class="btn" style="color: #fff;" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg" style="font-size: 1.4em;"></i></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul style="list-style: none;" class="side-list">
+
+                <li class="sidebar-item">  
+                    <a href="index.html"class="sidebar-link nav-link">Home</a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="tipe.html" class="sidebar-link nav-link actives">Tipe Mobil</a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="" class="sidebar-link nav-link">Harga</a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="" class="sidebar-link nav-link">Artikel & Promo</a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="" class="sidebar-link nav-link">Galeri</a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="" class="sidebar-link nav-link">Video</a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="" class="sidebar-link nav-link">Kontak</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!--End Side Bar-->
+  <!--End header-->
+
+
+  <!--List Tipe Mobil-->
+    <div class="container py-5">
+        <div class="row">
+        <div class="col-md-12 text-center">
+            <h4 class="title-type mt-5">Tipe Mobil Honda</h4>
+            <p class="sub-type">Tipe mobil Honda terbaru di Dealer Honda Sholeh Iskandar Bogor</p>
+        </div>
+
+        <div class="col-md-12 text-center mt-2">
+            <button class="btn filter-btn active" data-target="all">All</button>
+            <button class="btn filter-btn" data-target="hatchback">Hatchback</button>
+            <button class="btn filter-btn" data-target="mpv">MPV</button>
+            <button class="btn filter-btn" data-target="sedan">Sedan</button>
+            <button class="btn filter-btn" data-target="suv">SUV</button>
+        </div>
+
+        <div class="col-md-6 mt-5 text-center car-item" data-category="sedan" style="margin-bottom: 100px">
+            <div class="product" data-aos="flip-left">
+                <a href="" class="produk-list">
+                    <img src="asset/img/sedan.jpg" class="produk-img" alt="">
+                    <div class="backgrounds-product" style="height: 300px;position: relative;margin: -300px auto 0 auto;"></div>
+                    <div style="text-align: left;">
+                        <h4 class="tipe-mobils">Sedan</h4>
+                        <h2 class="nama-mobils">Civic RS</h2>
+                        <h2 class="pluses"><i class="bi bi-plus-lg"></i></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-6 mt-5 text-center car-item" data-category="suv" style="margin-bottom: 100px">
+            <div class="product" data-aos="flip-right">
+                <a href="" class="produk-list">
+                    <img src="asset/img/suv.jpg" class="produk-img" alt="">
+                    <div class="backgrounds-product" style="height: 300px;position: relative;margin: -300px auto 0 auto;"></div>
+                    <div style="text-align: left;">
+                        <h4 class="tipe-mobils">SUV</h4>
+                        <h2 class="nama-mobils">BR-V</h2>
+                        <h2 class="pluses"><i class="bi bi-plus-lg"></i></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+
+  <!--List Tipe Mobil-->
+
+
+  <!--Footer-->
+  <div class="footer"  data-aos="fade-up">
+    <div class="container">
+
+      <div class="row pt-5">
+
+        <div class="col-md-4 mt-3">
+          <h4 class="title-footer">About Us</h4>
+
+          <p class="about-footer mt-5">We Are Dream Builders. Honda believes in The Power of Dreams. But believing isn’t enough. As Soichiro Honda said: “Action without philosophy is a lethal weapon; philosophy without action is worthless.” See how we are bringing this idea to life.</p>
+
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <h4 class="title-footer">Contact Info</h4>
+
+          <p class="about-footer mt-5 icon-footer-contact">ANINDIYA WARDANI <br>
+            (Sales Counter)</p>
+          <p class="about-footer icon-footer-contact"><i class="bi bi-telephone-fill"></i> 0812 1044 1700</p>
+          <p class="about-footer icon-footer-contact"><i class="bi bi-telephone-fill"></i> 0856 9502 5018</p>
+          <p class="about-footer icon-footer-contact"><i class="bi bi-whatsapp"></i> 0812 1044 1700</p>
+          <p class="about-footer icon-footer-contact"><i class="bi bi-envelope"></i> wardanianindiya@gmail.com</p>
+
+          <p class="about-footer mt-2">Honda Sholeh Iskandar <br>
+            PT Mandiri Perwira Raya Motor <br>
+            Jl. KH. Sholeh Iskandar No. 27 Tanah Sareal, Bogor 16161</p>
+        </div>
+
+        <div class="col-md-4 mt-3">
+
+          <h4 class="title-footer">Let's Join With Us</h4>
+
+          <p class="mt-5"><a href="" class="link-footer"><i class="bi bi-facebook"></i> Facebook</a></p>
+          <p><a href="" class="link-footer"><i class="bi bi-instagram"></i> Instagram</a></p>
+
+          <img src="asset/img/banner-footer-1.png" class="footer-img mt-5" alt="">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="copyrightes">
+    <div class="container py-2">
+      <p class="text-white text-center mt-3" style="font-size: 0.9em;font-weight: 600;">Copyright &copy; 2023 Muhamad Nazar</p>
+    </div>
+  </div>
+
+  <!--End Footer-->
+
+
+  <!--Contact Bottom Nav-->
+  <nav class="fixed-bottom nav-android" style="background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(237,33,46,1) 100%);">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col nav-border-bottom">
+          <a class="nav-link-bottom text-white" href="#">
+            <h4 class="text-white"><i class="bi bi-telephone-fill"></i></h4>
+            <p class="nav-desk-bottom">Telephone</p>
+          </a>
+        </div>
+        <div class="col nav-border-bottom">
+          <a class="nav-link-bottom text-white" href="#">
+            <h4 class="text-white"><i class="bi bi-whatsapp"></i></h4>
+            <p class="nav-desk-bottom">Whatsapp</p>
+          </a>
+        </div>
+        <div class="col nav-border-bottom">
+          <a class="nav-link-bottom text-white" href="#">
+            <h4 class="text-white"><i class="bi bi-car-front-fill"></i></h4>
+            <p class="nav-desk-bottom">Price List</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--End Contact Bottom Nav-->
+
+  </div>
+  
+
+    <!--Script Libraries-->
+    <script src="asset/bs/js/bootstrap.min.js"></script>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+      var a = document.getElementById('tampil');
+      var b = document.getElementById('isi-content');
+
+      function closeModal() {
+        a.style.display = "none";
+        b.removeAttribute("hidden");
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+    var filterButtons = document.querySelectorAll(".filter-btn");
+    var carItems = document.querySelectorAll(".car-item");
+
+    filterButtons.forEach(function(filterButton) {
+        filterButton.addEventListener("click", function() {
+        // Change active button class
+        filterButtons.forEach(function(button) {
+            button.classList.remove("active");
+        });
+        this.classList.add("active");
+
+        // Get clicked button target category
+        var target = this.getAttribute("data-target");
+
+        // Show/hide car items based on target category
+        carItems.forEach(function(carItem) {
+            var category = carItem.getAttribute("data-category");
+            if (target === "all" || category === target) {
+            carItem.style.display = "block";
+            } else {
+            carItem.style.display = "none";
+            }
+        });
+        });
+    });
+    });
+
+
+    </script>
+</body>
+</html>
