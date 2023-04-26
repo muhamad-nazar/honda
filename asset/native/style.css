@@ -300,6 +300,21 @@ body {
 .nav-android {
     display: none;
 }
+
+/*List Mobil*/
+.title-type {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.sub-type {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: -5px;
+}
+/*End List Mobil*/
+
 @media screen and (max-width: 650px) {
     /*Promo*/
     .promo-p {
@@ -416,4 +431,14 @@ body {
         padding-bottom: 15px;
         border: 1px solid #330707;
     }
+
+    /*List Mobil*/
+    .title-type {
+        font-size: 1.4em;
+    }
+
+    .sub-type {
+        font-size: 0.9em;
+    }
+    /*End List Mobil*/
 }
