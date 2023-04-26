@@ -297,6 +297,9 @@ body {
 }
 /*End Artikel*/
 
+.nav-android {
+    display: none;
+}
 @media screen and (max-width: 650px) {
     /*Promo*/
     .promo-p {
@@ -388,4 +391,22 @@ body {
         margin-left: 250px;
     }
     /*Produk*/
+
+    .nav-android {
+        display: block;
+    }
+
+    .nav-desk-bottom {
+        font-size:0.8em;
+        margin-bottom: -10px;
+    }
+
+    .nav-link-bottom {
+        text-decoration: none;
+    }
+    
+    .nav-border-bottom {
+        padding: 15px 0;
+        border: 1px solid #330707;
+    }
 }
